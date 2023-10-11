@@ -1,0 +1,64 @@
+body{
+  
+  animation: colorChange 60s ease infinite;
+ 
+}
+
+#about-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  top: 150px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  max-width: 350px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: white;
+}
+header{
+  position: fixed;
+ top: 0;
+  left: 0;
+  
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+  
+  padding: 10px;
+  
+  
+  
+  
+}
+
+#sidebar {
+  position: fixed;
+  top: 40px;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  z-index: 1;
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #971efc; /* Initial color */
+  }
+  30% {
+    background-color: #6d1eb0; /* Color midway through animation */
+  }
+  60% {
+    background-color: #f39c12; /* Final color */
+  }
+  100% {
+    background-color: #971efc;
+  }
+}
