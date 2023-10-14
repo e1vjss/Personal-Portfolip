@@ -1,46 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
 
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@500;900&display=swap"
-          rel="stylesheet"
-        />
-        <link rel="stylesheet" href="styles.css" />
-      </head>
-      <body>
-        <div class="background">
-          <header>
-          <button id="sidebar-toggle">Toggle SideBar</button>
-        </header>
-       
-       <div id="sidebar">
-          <nav>
-            <h1>About</h1>
-            <h1>Projects</h2>
-              <h1>Contact</h1>
-          </nav>
-       </div>
-        <section id="about-container">
-          <img src="patrick.jpeg" alt="" />
-          <div id="about">
-            <h1>About me</h1>
-            <p>
-              I am patrick, I have the best house in the Bikini Bottom. My friends
-              are squidward and Mr.Crab, even though that crab is my friend, he wont
-              Hire ME! I CAN FLIP PATTYS
-            </p>
-          </div>
-        </section>
-        <section id="projects"></section>
-        <section id="contact"></section>
-        <script src="script.js"></script>
-      </body>
-    </html>
-    
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="theme-color" content="#000000" />
+  </head>
+
+  <body>
+    <header>
+      <button id="sidebar-toggle"><i class="material-icons">menu</i></button>
+      <p>My Portfolio</p>
+    </header>
+
+    <div id="sidebar" style="left: -250px">
+      <nav>
+        <h1>About</h1>
+        <h1>Projects</h1>
+        <h1>Contact</h1>
+      </nav>
+    </div>
+
+    <section id="about-container">
+      <img src="patrick.jpeg" alt="" />
+      <div id="about">
+        <h1>About me</h1>
+        <p>
+          I am patrick, I have the best house in the Bikini Bottom. My friends
+          are squidward and Mr.Crab, even though that crab is my friend, he wont
+          Hire ME! I CAN FLIP PATTYS
+        </p>
+      </div>
+    </section>
+
+    <section id="projects-container">
+      <h1 class="project-title">My Projects</h1>
+      <div id="eachProject">
+        <div class="project">
+          
+          <img src="patrick.jpeg" alt="">
+          <h1>Todo list</h1>
+        </div>
+        <div class="project">
+          
+          <img src="patrick.jpeg" alt="">
+          <h1>TicTacToe</h1>
+        </div>
+        <div class="project">
+          
+          <img src="patrick.jpeg" alt="">
+          <h1>calculator</h1>
+        </div>
+        <div class="project">
+        
+          <img src="patrick.jpeg" alt="">
+          <h1>TODO list</h1>
+        </div>
+      </section>
+      </div>
+      
+   
+
+    <section id="contact">
+      <div class="info">
+        <h1>Contact Me</h1>
+        <p>Please get in touch with me if you think our work could be mutually beneficial</p>
+        <p>Located in the state  North Carolina</p>
+        <p>123-456-789</p>
+        <p>e1vjs@icloud.com</p>
+      </div>
+     <div class="mypic">
+      <img src="por.jpeg" alt="">
+     </div>
+      
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
